@@ -3,23 +3,19 @@
 /* Page */
 
 .page {
+  /* font-family: var(--font-family); */
   background: var(--background-image) no-repeat top center,
     var(--background-color);
-  background-size: auto 768px;
+  background-attachment: fixed;
+  background-size: cover;
   color: var(--main-text-color);
 }
 
-@media (width <= 768px){
-    .page{
-      background-size: auto 1024px;
-    }
+.header,
+.footer{
+  min-height: 100vh;
 }
 
-@media (width <= 375px){
-  .page{
-    background-size: auto 668px;
-  }
-}
 /* Header */
 
 .header {
@@ -102,6 +98,7 @@
 
 .header__theme-menu-button:focus {
   border: none;
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
