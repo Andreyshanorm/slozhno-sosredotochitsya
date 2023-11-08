@@ -6,7 +6,7 @@
 */
 
 :root {
-  --font-family: "IBM Plex mono", git "Calibri", sans-serif;
+  --font-family: "IBM Plex mono", "Calibri", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
